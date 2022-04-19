@@ -1,0 +1,14 @@
+.numbers {
+  background-color: #95410d;
+  color: #E1DFDE;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: -5px -5px 10px #70310A,  5px 5px 15px #B95314;
+}
+.numbers:hover{
+    box-shadow: inset 5px 5px 10px #70310A, inset -5px 5px 15px #B95314;
+
+}

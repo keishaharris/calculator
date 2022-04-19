@@ -1,0 +1,10 @@
+.screen{
+    background-color: #95410D;
+    color: #fff;
+    display:flex;
+    width: 90%;
+    padding: 35px;
+    justify-content: flex-end;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px #70310A, inset -6px -6px 10px #B95314;
+}
