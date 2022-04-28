@@ -1,9 +1,9 @@
 import React from 'react';
 import './Screen.css';
 
-const Screen = () => {
+const Screen = ({value}) => {
   return (
-    <div className='screen'>Screen TESTING</div>
+    <div className='screen'>{value}</div>
   )
 }
 
