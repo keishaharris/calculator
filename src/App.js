@@ -25,20 +25,23 @@ const Calculator = () => {
   }
 
   const handleEqual = () => {
+    let math;
     switch (sign) {
       case '+':
-        let math = numbers + result;
-        console.log(math);
-        // return a + b;
+        math = numbers + result;
+        setNumbers(math)
         break;
       case '-':
-        console.log(numbers - result);
+        math = result - numbers;
+        setNumbers(math)        
         break;
       case '*':
-        console.log(numbers * result);
+        math = numbers * result;
+        setNumbers(math)
         break;
       case '/':
-        console.log(numbers / result);
+        math = result / numbers;
+        setNumbers(math)
         break;
       default:
         break;
